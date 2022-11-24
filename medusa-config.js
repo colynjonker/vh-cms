@@ -35,23 +35,32 @@ const DATABASE_URL =
 // Medusa uses Redis, so this needs configuration as well
 const REDIS_URL = process.env.REDIS_URL || "redis://localhost:6379";
 
-// Stripe keys
 const STRIPE_API_KEY = process.env.STRIPE_API_KEY || "";
 const STRIPE_WEBHOOK_SECRET = process.env.STRIPE_WEBHOOK_SECRET || "";
 
 // This is the place to include plugins. See API documentation for a thorough guide on plugins.
+
 const plugins = [
-  `medusa-fulfillment-manual`,
-  `medusa-payment-manual`,
-  // Uncomment to add Stripe support.
-  // You can create a Stripe account via: https://stripe.com
-  // {
-  //   resolve: `medusa-payment-stripe`,
-  //   options: {
-  //     api_key: STRIPE_API_KEY,
-  //     webhook_secret: STRIPE_WEBHOOK_SECRET,
-  //   },
-  // },
+    `medusa-fulfillment-manual`,
+	{
+		resolve: `medusa-payment-stripe`,
+		options: {
+			api_key: STRIPE_API_KEY,
+			webhook_secret: STRIPE_WEBHOOK_SECRET,
+		},
+	},
+	{
+		resolve: `medusa-plugin-filestorage-local`,
+		options:
+			{
+				// The baseurl for your medusajs server
+				serverBaseUrl: "http://localhost:9000",
+				// when enabled saves the file as a base64 encoded string inside the database (deleting that row is not yet supported)
+				saveInDatabase: false, // recommended: false
+				// the folder where your files are stored on the server
+				fileLocation: "uploads/persistent/",
+			}
+	}
 ];
 
 module.exports = {

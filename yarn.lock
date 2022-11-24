@@ -1072,10 +1072,10 @@
     semver "^7.3.5"
     tar "^6.1.11"
 
-"@medusajs/medusa-cli@^1.3.3", "@medusajs/medusa-cli@^1.3.4":
-  version "1.3.4"
-  resolved "https://registry.yarnpkg.com/@medusajs/medusa-cli/-/medusa-cli-1.3.4.tgz#ab3c059f1b2fd8fa60a7cb144fa8846a3d7446a7"
-  integrity sha512-2FBIDCU4bulOvlxCJdavvUPAyrPnmq5p3GwMIN5Yh1Q+ZDtoDCCqVCU/gO6/qjnqZukmHFeazi/uQ00qt1K81Q==
+"@medusajs/medusa-cli@^1.3.3", "@medusajs/medusa-cli@^1.3.5":
+  version "1.3.5"
+  resolved "https://registry.yarnpkg.com/@medusajs/medusa-cli/-/medusa-cli-1.3.5.tgz#4f8effab4ce26a4e02d757005d8577641fe09043"
+  integrity sha512-sAXWSiMYdZqzkjRmRUaCGPKDLmZ15tHZZqZQ1g8EdcuouFsGZaEVnx83vyo4q90AWOS4/SRrCXV6iDSwUCs8cA==
   dependencies:
     "@babel/polyfill" "^7.8.7"
     "@babel/runtime" "^7.9.6"
@@ -1092,7 +1092,7 @@
     is-valid-path "^0.1.1"
     meant "^1.0.1"
     medusa-core-utils "^1.1.31"
-    medusa-telemetry "0.0.14"
+    medusa-telemetry "0.0.15"
     netrc-parser "^3.1.6"
     open "^8.0.6"
     ora "^5.4.1"
@@ -1107,11 +1107,11 @@
     yargs "^15.3.1"
 
 "@medusajs/medusa@^1.6.0":
-  version "1.6.3"
-  resolved "https://registry.yarnpkg.com/@medusajs/medusa/-/medusa-1.6.3.tgz#9bc5bb581c2d5d36b6f207ac82e5d86f5575b614"
-  integrity sha512-sxGdY3crSHdDeY+FsUKvya5EP4aTeR9vP49/ML9G624TrP9Fo8+FXNGm8ASr5nJZd3iJNCE5TMa7NZhq7qy6Cw==
+  version "1.6.5"
+  resolved "https://registry.yarnpkg.com/@medusajs/medusa/-/medusa-1.6.5.tgz#e6c79b7d53525b5f69326167eebf9e54f514dd4b"
+  integrity sha512-jQj6UHZofcsDQPTPP6s2RA48BCjDVvys/fzYI4LATxqdwNaj0cFE4ugJIfxxzgxB0uC0u7+xxfSF95nvm1yfMw==
   dependencies:
-    "@medusajs/medusa-cli" "^1.3.4"
+    "@medusajs/medusa-cli" "^1.3.5"
     "@types/ioredis" "^4.28.10"
     "@types/lodash" "^4.14.168"
     awilix "^4.2.3"
@@ -1133,7 +1133,7 @@
     ioredis-mock "^5.6.0"
     iso8601-duration "^1.3.0"
     jsonwebtoken "^8.5.1"
-    medusa-core-utils "^1.1.34"
+    medusa-core-utils "^1.1.35"
     medusa-test-utils "^1.1.37"
     morgan "^1.9.1"
     multer "^1.4.2"
@@ -1342,9 +1342,9 @@
     "@types/node" "*"
 
 "@types/lodash@^4.14.168":
-  version "4.14.189"
-  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.189.tgz#975ff8c38da5ae58b751127b19ad5e44b5b7f6d2"
-  integrity sha512-kb9/98N6X8gyME9Cf7YaqIMvYGnBSWqEci6tiettE6iJWH1XdJz/PO8LB0GtLCG7x8dU3KWhZT+lA1a35127tA==
+  version "4.14.190"
+  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.190.tgz#d8e99647af141c63902d0ca53cf2b34d2df33545"
+  integrity sha512-5iJ3FBJBvQHQ8sFhEhJfjUP+G+LalhavTkYyrAYqz5MEJG+erSv0k9KJLb6q7++17Lafk1scaTIFXcMJlwK8Mw==
 
 "@types/node@*", "@types/node@>=8.1.0":
   version "18.11.9"
@@ -1442,9 +1442,9 @@ any-promise@^1.0.0:
   integrity sha512-7UvmKalWRt1wgjL1RrGxoSJW/0QZFIegpeGvZG9kjp8vrRu55XTHbwnqq2GpXm9uLbcuhxm3IqX9OB4MZR1b2A==
 
 anymatch@~3.1.2:
-  version "3.1.2"
-  resolved "https://registry.yarnpkg.com/anymatch/-/anymatch-3.1.2.tgz#c0557c096af32f106198f4f4e2a383537e378716"
-  integrity sha512-P43ePfOAIupkguHUycrc4qJ9kz8ZiuOUijaETwX7THt0Y/GNK7v0aa8rY816xWjZ7rJdA5XdMcpVFTKMq+RvWg==
+  version "3.1.3"
+  resolved "https://registry.yarnpkg.com/anymatch/-/anymatch-3.1.3.tgz#790c58b19ba1720a84205b57c618d5ad8524973e"
+  integrity sha512-KMReFUr0B4t+D+OBkjR3KYqvocp2XaSzO55UcB6mgQMd3KbcE+mWTyvVV7D/zsdEbNnV6acZUutkiHQXvTr1Rw==
   dependencies:
     normalize-path "^3.0.0"
     picomatch "^2.0.4"
@@ -1787,9 +1787,9 @@ camelcase@^6.2.0:
   integrity sha512-Gmy6FhYlCY7uOElZUSbxo2UCDH8owEk996gkbrpsgGtrJLM3J7jGxl9Ic7Qwwj4ivOE5AWZWRMecDdF7hqGjFA==
 
 caniuse-lite@^1.0.30001400:
-  version "1.0.30001431"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001431.tgz#e7c59bd1bc518fae03a4656be442ce6c4887a795"
-  integrity sha512-zBUoFU0ZcxpvSt9IU66dXVT/3ctO1cy4y9cscs1szkPlcWb6pasYM144GqrUygUbT+k7cmUCW61cvskjcv0enQ==
+  version "1.0.30001434"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001434.tgz#ec1ec1cfb0a93a34a0600d37903853030520a4e5"
+  integrity sha512-aOBHrLmTQw//WFa2rcF1If9fa3ypkC1wzqqiKHgfdrXTWcU8C4gKVZT77eQAPWN1APys3+uQ0Df07rKauXGEYA==
 
 cardinal@^2.1.1:
   version "2.1.1"
@@ -1842,9 +1842,9 @@ chownr@^2.0.0:
   integrity sha512-bIomtDF5KGpdogkLd9VspvFzk9KfpyyGlS8YFVZl7TGPBHL5snIOnxeshwVgPteQ9b4Eydl+pVbIyE1DcvCWgQ==
 
 ci-info@^3.2.0:
-  version "3.6.1"
-  resolved "https://registry.yarnpkg.com/ci-info/-/ci-info-3.6.1.tgz#7594f1c95cb7fdfddee7af95a13af7dbc67afdcf"
-  integrity sha512-up5ggbaDqOqJ4UqLKZ2naVkyqSJQgJi5lwD6b6mM748ysrghDBX0bx/qJTUHzw7zu6Mq4gycviSF5hJnwceD8w==
+  version "3.6.2"
+  resolved "https://registry.yarnpkg.com/ci-info/-/ci-info-3.6.2.tgz#362ea15378f1c39378ba786affbc1c9ef015ecfd"
+  integrity sha512-lVZdhvbEudris15CLytp2u6Y0p5EKfztae9Fqa189MfNmln9F33XuH69v5fvNfiRN5/0eAUz2yJL3mo+nhaRKg==
 
 class-transformer@^0.5.1:
   version "0.5.1"
@@ -3551,10 +3551,10 @@ media-typer@0.3.0:
   resolved "https://registry.yarnpkg.com/media-typer/-/media-typer-0.3.0.tgz#8710d7af0aa626f8fffa1ce00168545263255748"
   integrity sha512-dq+qelQ9akHpcOl/gUVRTxVIOkAJ1wR3QAvb4RsVjS8oVoFjDGTc679wJYmUmknUF5HwMLOgb5O+a3KxfWapPQ==
 
-medusa-core-utils@^1.1.31, medusa-core-utils@^1.1.32, medusa-core-utils@^1.1.34:
-  version "1.1.34"
-  resolved "https://registry.yarnpkg.com/medusa-core-utils/-/medusa-core-utils-1.1.34.tgz#b6b7228ba3612e559ed8a0a968c001f9c7a22e14"
-  integrity sha512-Ys/vq3POqyjVgmjinEs6SA5kxhOkI14LSUAsVr5s4RXaZxQdcyV5ON1wM5fon0QW5kAiCdjWZ0e5pOjmpyXGWg==
+medusa-core-utils@^1.1.30, medusa-core-utils@^1.1.31, medusa-core-utils@^1.1.32, medusa-core-utils@^1.1.35:
+  version "1.1.35"
+  resolved "https://registry.yarnpkg.com/medusa-core-utils/-/medusa-core-utils-1.1.35.tgz#a5376920ce7a56e90ef418333c50ad2a22b09810"
+  integrity sha512-epFs9VY6wmQ6nPqe6zlpjjG0HhvzRVhDETTqum3AWeqFD4zQnOaRMiQrgFKEVuLokckQ2qzBuXoGP9tcIWr/HA==
   dependencies:
     joi "^17.3.0"
     joi-objectid "^3.0.1"
@@ -3575,25 +3575,29 @@ medusa-interfaces@^1.3.3:
   resolved "https://registry.yarnpkg.com/medusa-interfaces/-/medusa-interfaces-1.3.3.tgz#85745ea768fcbb093d3d5d3dee987fcdf996cb45"
   integrity sha512-e2ZkKtBppBVZYu09y479b5JgkNhzzDLuOHPxVXN2CVK9vUCYrzfEPMXd6B21CTchrhD07MCtR17l4OElRvPtSw==
 
-medusa-payment-manual@^1.0.16:
-  version "1.0.16"
-  resolved "https://registry.yarnpkg.com/medusa-payment-manual/-/medusa-payment-manual-1.0.16.tgz#7cfe724fe465572666e10a5e10657721192da0e7"
-  integrity sha512-Oxmz3qCZ9b+tCI7TTC1Z6vOFJU8kiSZylxvoN+j8FuqIdtdZepAwSyxYpUB/IDMEbpRmZlFXp2rY4653qT1Mnw==
-
-medusa-payment-stripe@^1.1.45:
-  version "1.1.47"
-  resolved "https://registry.yarnpkg.com/medusa-payment-stripe/-/medusa-payment-stripe-1.1.47.tgz#609cd7929a33cd467118743a164ae99196d1802c"
-  integrity sha512-8dZ7CPW4IQ7lrM4G3GHEGH5KBYE/u60TfFZDNtChdT0Zs0USkzTcI/pq4OKCz3Lwe3omNrpJhbTgA+wfIQE9gg==
+medusa-payment-stripe@^1.1.47:
+  version "1.1.48"
+  resolved "https://registry.yarnpkg.com/medusa-payment-stripe/-/medusa-payment-stripe-1.1.48.tgz#778dc2530cfcbef07a1fe14528a1c4601e7a4047"
+  integrity sha512-d5E/NoZK0AgElA5WZmQv+8NlDvEp5bTLGrdJmz2Xe7/jdsl2NRt1S3XhQ5IilKxJ2s0b/Ylmd4TUJYHts4ZhoQ==
   dependencies:
     body-parser "^1.19.0"
     express "^4.17.1"
     medusa-core-utils "^1.1.32"
     stripe "^8.50.0"
 
-medusa-telemetry@0.0.14:
-  version "0.0.14"
-  resolved "https://registry.yarnpkg.com/medusa-telemetry/-/medusa-telemetry-0.0.14.tgz#1247e3712ab1092c7318cae3d5d958f5c2873a20"
-  integrity sha512-eG5VdU7uA1jQxP9p7SacPjWvYLBAVjHU39Pgvj2bWU8W6uBgCO2L+BGXcUZbr8DAdr9lK9w5IShltVQGjDsoWw==
+medusa-plugin-filestorage-local@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/medusa-plugin-filestorage-local/-/medusa-plugin-filestorage-local-0.1.2.tgz#55e6e0b7321ad97a43ef5add6e0f83dc5a2e3b51"
+  integrity sha512-zxgwXHJ36nU1KzMoy2o+GwRMOn8hCRA+p6PnU5IhPJfHlxy7UyhqBXQ2dGTiqfKr7Oz4PioblN75VjcF3sRsBw==
+  dependencies:
+    cors "^2.8.5"
+    express "^4.17.1"
+    medusa-core-utils "^1.1.30"
+
+medusa-telemetry@0.0.15:
+  version "0.0.15"
+  resolved "https://registry.yarnpkg.com/medusa-telemetry/-/medusa-telemetry-0.0.15.tgz#fe78ef1d51845806f669867eb90336bc51f8aba4"
+  integrity sha512-iQ/8a2lUVIVGXKj+by2Vc85eNWAwEAa5RxTQSQpgVOoMy0a/pw951EYQkYsch2cJAVW/tHmWqY0gYmqUuZ0c8A==
   dependencies:
     axios "^0.21.1"
     axios-retry "^3.1.9"
